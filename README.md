@@ -8,8 +8,8 @@ flutter pub run build_runner build
 ``
 2. Siga as etapas de construção convencionais para Flutter
 ``
-pub vibrante obter
-corrida vibrante
+flutter pub get
+flutter run
 ``
 
 ## Observações gerais
