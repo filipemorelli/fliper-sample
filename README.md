@@ -3,12 +3,14 @@
 ## Instrução de execução
 
 1. Git clone este projeto.
-``
-flutter pub run build_runner build
-``
 2. Siga as etapas de construção convencionais para Flutter
 ``
 flutter pub get
+``
+``
+flutter pub run build_runner build
+``
+``
 flutter run
 ``
 
