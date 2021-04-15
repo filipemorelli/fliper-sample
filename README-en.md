@@ -4,15 +4,15 @@
 
 1. Git clone this project.
 2. Follow the conventional build steps for Flutter
-``
+```
 flutter pub get
-``
-``
+```
+```
 flutter pub run build_runner build
-``
-``
+```
+```
 flutter run
-``
+```
 
 
 ## General observations
