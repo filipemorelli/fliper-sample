@@ -1,16 +1,21 @@
-# fliper
+# Fliper
 
-A new Flutter project.
+## Instrução de execução
 
-## Getting Started
+1. Git clone este projeto.
+``
+flutter pub run build_runner build
+``
+2. Siga as etapas de construção convencionais para Flutter
+``
+pub vibrante obter
+corrida vibrante
+``
 
-This project is a starting point for a Flutter application.
+## Observações gerais
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- O gerenciamento de estado utilizada foi Mobx (mas pode usar qualquer outro, como: Provider, Bloc, Streams, Cubit, State Notifier, Get)
+- Integração com o hasura utilizei o pacote hasura_connect por ser mais simples, mas poderia ter utilizado graphql que tem mais recursos.
+- Devido a uma fonte não está disponível gratuitamente para download não utilizei uma fonte correta do Adobe XD.
+- Implementei a internacionalização, estando habilitada para os idiomas português e inglês, se quiser testar manualmente, basta colocar o locale manualmente em `app_widget.dart`.
+- Percebi que o retorno da API é uma `lista` então decidi usar a criatividade e usar recursos como` ListView` com `RefreshIndicator`, já que centralizar é muito simples, basta usar o widget `Center` ou` Container` ou` Column` por exemplo, mas claro somente fiz isso porque é um **teste**.
